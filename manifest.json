@@ -4,8 +4,7 @@
   "description": "Neutralizes annoying parts of the Medium reading experience and lets you read again.",
   "version": "1.5.1",
   "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
+    "page": "options.html"
   },
   "icons": {
     "128": "icon.png"
