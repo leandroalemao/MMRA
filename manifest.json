@@ -10,8 +10,10 @@
     "128": "icon.png"
   },
   "permissions": [
-    "storage",
-    "https://*/*"
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
   ],
   "content_scripts": [
     {
