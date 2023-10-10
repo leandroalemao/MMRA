@@ -1,16 +1,8 @@
 {
-  "manifest_version": 2,
-
+  "manifest_version": 3,
   "name": "Make Medium Readable Again",
   "description": "Neutralizes annoying parts of the Medium reading experience and lets you read again.",
   "version": "1.5.1",
-
-  "applications": {
-    "gecko": {
-      "id": "{28d1ed97-5ff6-432b-a26d-61896fe2cbed}",
-      "strict_min_version": "42.0"
-    }
-  },
   "options_ui": {
     "page": "options.html",
     "chrome_style": true
@@ -28,9 +20,11 @@
       "js": ["content.js"]
     }
   ],
-  "web_accessible_resources": [
-    "medium.css"
-  ],
+  "web_accessible_resources": [{
+    "resources": ["medium.css"],
+    "matches": [],
+    "extension_ids": []
+   }],
   "externally_connectable": {
     "ids": [
       "*"
